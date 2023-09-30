@@ -21,7 +21,7 @@ class MailAdapter(val context: Context, val mailListesi: List<Mail>) :
 
     override fun onBindViewHolder(holder: MailViewHolder, position: Int) {
         with(holder.binding) {
-
+            recyclerRowImageView.setImageResource(mailListesi[position].mailLogo)
             recyclerRowBaslik.text = mailListesi[position].mailBaslik
             recyclerRowTanim.text = mailListesi[position].mailTanim
             recyclerRowAciklama.text = mailListesi[position].mailAciklama
