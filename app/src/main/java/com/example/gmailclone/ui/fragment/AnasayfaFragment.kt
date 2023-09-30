@@ -23,7 +23,7 @@ class AnasayfaFragment : Fragment() {
 
         binding.rv.layoutManager= LinearLayoutManager(requireContext())
         val mailListesi= ArrayList<Mail>()
-        val m1=Mail(2,R.drawable.oplog,"Welcome Oplog!","İş teklifin onaylandı!", "Musa selam , Oplog ekibine katıldığını bildirmek isteriz!", "19:23",true)
+        val m1=Mail(2,R.drawable.oplog,"Welcome Oplog!","İş teklifin onaylandıı!", "Musa selam , Oplog ekibine katıldığını bildirmek isteriz!", "19:23",true)
         val m2=Mail(1, R.drawable.udemy_logo,"Udemy Teklif Aldın!","Selam Musa, iş teklifini değerlendir.", "Selamlar Musa Bey, Udemy olarak iş teklifinde bulunmak isteriz ", "17:55",false)
         val m3=Mail(3,R.drawable.albank,"Akbank Android Team!","Jr. Android developer", "Jr. Android Developer pozisyon açığımızı sizlerele beraber doldurmka istediğimizi sizlere bildirmek isteriz. ", "17:52",true)
         val m4=Mail(4,R.drawable.argenova,"Argenova","Android Team ", "Android ekibimizde sizleri de aramızda görmek isteriz. Bizimle iletişime geçin ", "14:23",false)
